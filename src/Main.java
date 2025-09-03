@@ -1,10 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        // Create objects
         Book b1 = new Novel();
         Book b2 = new Textbook();
 
-        // Display book information
         System.out.println("---- Novel Details ----");
         b1.bookName();
         b1.bookPrice();
