@@ -11,8 +11,9 @@ public class Homework extends Thread{
             try {
                 Thread.sleep(500);
             } catch (InterruptedException e) {
-                // TODO: handle exception
+                System.out.println(studentName + " got disturbed!");
             }
         }
+        System.out.println(studentName + " has finished homework!");
     }
 }
